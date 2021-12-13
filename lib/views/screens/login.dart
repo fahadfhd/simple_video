@@ -50,6 +50,9 @@ class _LoginViewState extends State<LoginView> {
                           child: IntlPhoneField(
                             iconPosition: IconPosition.trailing,
                             decoration: const InputDecoration(
+                              
+                              hintStyle:
+                                  TextStyle(fontSize: 14.0, color: color21609e),
                               labelStyle:
                                   TextStyle(fontSize: 14.0, color: color21609e),
                               labelText: "Mobile Number",
